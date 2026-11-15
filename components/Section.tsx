@@ -27,7 +27,7 @@ export function SectionTitle({
 }) {
   return (
     <h2
-      className={`font-display text-[clamp(34px,6vw,88px)] leading-[1] tracking-[-0.03em] balance ${className}`}
+      className={`font-display text-[clamp(34px,6vw,88px)] leading-[1] tracking-[-0.018em] balance ${className}`}
     >
       {children}
     </h2>

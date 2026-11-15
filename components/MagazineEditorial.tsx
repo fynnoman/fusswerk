@@ -28,7 +28,7 @@ export default function MagazineEditorial() {
             transition={{ duration: 1 }}
             className="lg:col-span-7"
           >
-            <h2 className="font-display text-[clamp(38px,8vw,140px)] leading-[0.95] tracking-[-0.035em] balance">
+            <h2 className="font-display text-[clamp(38px,8vw,140px)] leading-[0.95] tracking-[-0.02em] balance">
               Unsere Füße tragen
               <br />
               uns ein{' '}

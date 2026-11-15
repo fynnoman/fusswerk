@@ -8,7 +8,7 @@ export default function Marquee({ items }: { items: string[] }) {
         {doubled.map((it, i) => (
           <span
             key={i}
-            className="font-display italic text-[clamp(28px,4vw,52px)] leading-none text-[var(--color-ink-80)] tracking-[-0.03em]"
+            className="font-display italic text-[clamp(28px,4vw,52px)] leading-none text-[var(--color-ink-80)] tracking-[-0.018em]"
           >
             {it}
             <span className="inline-block w-2 h-2 rounded-full bg-[var(--color-jade)] mx-8 translate-y-[-14px]" />

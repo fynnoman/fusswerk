@@ -29,7 +29,7 @@ export default function UeberMichPage() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-end">
             <Reveal className="lg:col-span-7">
               <Eyebrow>Über Oliver Latz</Eyebrow>
-              <h1 className="mt-8 font-display text-[clamp(42px,10vw,160px)] leading-[0.95] tracking-[-0.035em] balance">
+              <h1 className="mt-8 font-display text-[clamp(42px,10vw,160px)] leading-[0.95] tracking-[-0.02em] balance">
                 Medizin, die
                 <br />
                 <span className="italic text-[var(--color-jade)]">zuhört.</span>
@@ -123,7 +123,7 @@ export default function UeberMichPage() {
       <Section>
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-end">
           <Reveal className="lg:col-span-8">
-            <blockquote className="font-display italic text-[clamp(28px,3.5vw,52px)] leading-[1.2] tracking-[-0.025em] balance text-[var(--color-ink-80)] border-l-2 border-[var(--color-jade)] pl-8">
+            <blockquote className="font-display italic text-[clamp(28px,3.5vw,52px)] leading-[1.2] tracking-[-0.015em] balance text-[var(--color-ink-80)] border-l-2 border-[var(--color-jade)] pl-8">
               „Regelmäßige Fußpflege durch erfahrene Fachfußpfleger hilft, ernsthafte
               Fußprobleme zu vermeiden und trägt zu gesunden und schmerzfreien Füßen
               bei.&#8220;

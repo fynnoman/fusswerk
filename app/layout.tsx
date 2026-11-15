@@ -1,14 +1,15 @@
 import type { Metadata } from 'next';
-import { Fraunces, Geist } from 'next/font/google';
+import { Instrument_Serif, Geist } from 'next/font/google';
 import './globals.css';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 import WhatsAppFloat from '@/components/WhatsAppFloat';
 
-const fraunces = Fraunces({
+const serif = Instrument_Serif({
   subsets: ['latin'],
-  variable: '--font-fraunces',
-  axes: ['opsz', 'SOFT'],
+  weight: '400',
+  style: ['normal', 'italic'],
+  variable: '--font-serif',
   display: 'swap',
 });
 
@@ -34,7 +35,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="de" className={`${fraunces.variable} ${geist.variable}`}>
+    <html lang="de" className={`${serif.variable} ${geist.variable}`}>
       <body className="font-sans antialiased min-h-screen">
         <Nav />
         <main>{children}</main>

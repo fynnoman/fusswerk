@@ -77,7 +77,7 @@ export default function PortraitEditorial() {
             className="lg:col-span-6"
           >
             <p className="eyebrow">Hinter der Praxis</p>
-            <h2 className="mt-8 font-display text-[clamp(38px,7vw,112px)] leading-[0.98] tracking-[-0.035em] balance">
+            <h2 className="mt-8 font-display text-[clamp(38px,7vw,112px)] leading-[0.98] tracking-[-0.02em] balance">
               Medizin, die{' '}
               <span className="italic text-[var(--color-jade)]">zuhört.</span>
             </h2>

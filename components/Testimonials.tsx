@@ -19,7 +19,7 @@ export default function Testimonials() {
         >
           <div>
             <p className="eyebrow">Was Patienten sagen</p>
-            <h2 className="mt-6 font-display text-[clamp(36px,6.5vw,104px)] leading-[0.98] tracking-[-0.035em] balance max-w-[18ch]">
+            <h2 className="mt-6 font-display text-[clamp(36px,6.5vw,104px)] leading-[0.98] tracking-[-0.02em] balance max-w-[18ch]">
               Eine ruhige{' '}
               <span className="italic text-[var(--color-jade)]">Stimme</span>{' '}
               reicht manchmal.

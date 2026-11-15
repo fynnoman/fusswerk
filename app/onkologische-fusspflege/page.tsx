@@ -21,7 +21,7 @@ export default function OnkologischPage() {
             <Eyebrow>Onkologische Fußpflege</Eyebrow>
           </Reveal>
           <Reveal delay={0.1}>
-            <h1 className="mt-8 font-display text-[clamp(52px,9vw,148px)] leading-[0.93] tracking-[-0.035em] balance">
+            <h1 className="mt-8 font-display text-[clamp(52px,9vw,148px)] leading-[0.93] tracking-[-0.02em] balance">
               Pflege, die
               <br />
               <span className="italic text-[var(--color-jade)]">verstanden hat.</span>
@@ -105,7 +105,7 @@ export default function OnkologischPage() {
           <div className="relative grid grid-cols-1 lg:grid-cols-12 gap-10 items-end">
             <Reveal className="lg:col-span-7">
               <HeartPulse size={28} strokeWidth={1.4} className="text-[var(--color-blush)]" />
-              <h3 className="mt-6 font-display text-[clamp(32px,4.5vw,64px)] leading-[0.98] tracking-[-0.03em] balance">
+              <h3 className="mt-6 font-display text-[clamp(32px,4.5vw,64px)] leading-[0.98] tracking-[-0.018em] balance">
                 Wir hören zu.
                 <br />
                 <span className="italic text-[var(--color-blush)]">Vor jeder Berührung.</span>

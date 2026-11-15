@@ -56,7 +56,7 @@ export default function InnerHero({
           initial={{ opacity: 0, y: 36 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.1, ease: [0.22, 1, 0.36, 1] }}
-          className={`mt-8 font-display ${textColor} text-[clamp(52px,10vw,160px)] leading-[0.9] tracking-[-0.04em] max-w-[14ch] balance`}
+          className={`mt-8 font-display ${textColor} text-[clamp(52px,10vw,160px)] leading-[0.9] tracking-[-0.02em] max-w-[14ch] balance`}
         >
           {title}
         </motion.h1>

@@ -50,10 +50,10 @@ export default function KaltplasmaImmersive() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: '-120px' }}
           transition={{ duration: 1.1, ease: [0.22, 1, 0.36, 1] }}
-          className="mt-8 md:mt-10 font-display text-[clamp(48px,11vw,200px)] leading-[0.9] tracking-[-0.035em] balance max-w-[12ch]"
+          className="mt-8 md:mt-10 font-display text-[clamp(48px,11vw,200px)] leading-[0.9] tracking-[-0.02em] balance max-w-[12ch]"
         >
           Der vierte{' '}
-          <span className="italic text-[var(--color-blush)]">Aggregat</span>­zustand.
+          <span className="italic text-[var(--color-blush)]">Aggregatzustand.</span>
         </motion.h2>
 
         <div className="mt-16 grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16">

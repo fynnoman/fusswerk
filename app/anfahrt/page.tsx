@@ -21,7 +21,7 @@ export default function AnfahrtPage() {
             <Eyebrow>Anfahrt</Eyebrow>
           </Reveal>
           <Reveal delay={0.1}>
-            <h1 className="mt-8 font-display text-[clamp(42px,10vw,160px)] leading-[0.95] tracking-[-0.035em] balance">
+            <h1 className="mt-8 font-display text-[clamp(42px,10vw,160px)] leading-[0.95] tracking-[-0.02em] balance">
               So finden Sie
               <br />
               <span className="italic text-[var(--color-jade)]">zu uns.</span>

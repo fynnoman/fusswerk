@@ -35,7 +35,7 @@ export default function FinalCTA() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: '-100px' }}
           transition={{ duration: 1.1, ease: [0.22, 1, 0.36, 1] }}
-          className="mt-6 md:mt-8 font-display text-white text-[clamp(44px,10vw,180px)] leading-[0.92] tracking-[-0.035em] balance max-w-[14ch]"
+          className="mt-6 md:mt-8 font-display text-white text-[clamp(44px,10vw,180px)] leading-[0.92] tracking-[-0.02em] balance max-w-[14ch]"
         >
           Lass uns deine Füße{' '}
           <span className="italic text-[var(--color-blush)]">kennenlernen.</span>

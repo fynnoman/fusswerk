@@ -36,7 +36,7 @@ export default function OnyfixPage() {
             <Eyebrow>Onyfix Nagelkorrektur</Eyebrow>
           </Reveal>
           <Reveal delay={0.1}>
-            <h1 className="mt-8 font-display text-[clamp(42px,10vw,160px)] leading-[0.95] tracking-[-0.035em] balance">
+            <h1 className="mt-8 font-display text-[clamp(42px,10vw,160px)] leading-[0.95] tracking-[-0.02em] balance">
               Nagelkorrektur.
               <br />
               <span className="italic text-[var(--color-jade)]">Ganz ohne Zug.</span>
@@ -105,7 +105,7 @@ export default function OnyfixPage() {
           <SoftBlob className="w-[60%] h-[60%] -bottom-[20%] -right-[10%]" color="rgba(215,229,219,0.9)" />
           <Reveal>
             <Eyebrow>Beratung</Eyebrow>
-            <h2 className="mt-6 font-display text-[clamp(42px,6vw,96px)] leading-[0.95] tracking-[-0.035em] balance">
+            <h2 className="mt-6 font-display text-[clamp(42px,6vw,96px)] leading-[0.95] tracking-[-0.02em] balance">
               Ist Onyfix
               <br />
               <span className="italic text-[var(--color-jade)]">das Richtige für Sie?</span>

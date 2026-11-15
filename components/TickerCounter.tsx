@@ -17,7 +17,7 @@ export default function TickerCounter() {
               transition={{ duration: 0.9, delay: i * 0.08, ease: [0.22, 1, 0.36, 1] }}
               className="border-l border-white/15 pl-4 md:pl-6"
             >
-              <p className="font-display italic text-[clamp(36px,6vw,96px)] leading-none tracking-[-0.03em] text-[var(--color-blush)]">
+              <p className="font-display italic text-[clamp(36px,6vw,96px)] leading-none tracking-[-0.018em] text-[var(--color-blush)]">
                 {s.k}
               </p>
               <p className="mt-3 md:mt-4 text-[11px] md:text-[13px] uppercase tracking-[0.18em] md:tracking-[0.2em] text-[var(--color-paper)]/70">

@@ -57,7 +57,7 @@ export default function HeroCinematic() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.1, ease: [0.22, 1, 0.36, 1] }}
         >
-          <h1 className="font-display text-white text-[clamp(48px,11vw,200px)] leading-[0.9] tracking-[-0.035em] max-w-[14ch] balance">
+          <h1 className="font-display text-white text-[clamp(48px,11vw,200px)] leading-[0.9] tracking-[-0.02em] max-w-[14ch] balance">
             Jeder Schritt{' '}
             <span className="italic text-[var(--color-blush)]">verdient</span>{' '}
             Sorgfalt.

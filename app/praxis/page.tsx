@@ -22,7 +22,7 @@ export default function PraxisPage() {
             <Eyebrow>Die Praxis</Eyebrow>
           </Reveal>
           <Reveal delay={0.1}>
-            <h1 className="mt-8 font-display text-[clamp(42px,10vw,160px)] leading-[0.95] tracking-[-0.035em] balance">
+            <h1 className="mt-8 font-display text-[clamp(42px,10vw,160px)] leading-[0.95] tracking-[-0.02em] balance">
               Ein Ort, an dem
               <br />
               <span className="italic text-[var(--color-jade)]">Zeit da ist.</span>
@@ -155,7 +155,7 @@ export default function PraxisPage() {
           <div className="relative grid grid-cols-1 lg:grid-cols-12 gap-10 items-end">
             <Reveal className="lg:col-span-7">
               <Home size={28} strokeWidth={1.4} className="text-[var(--color-blush)]" />
-              <h3 className="mt-6 font-display text-[clamp(36px,5vw,72px)] leading-[0.98] tracking-[-0.03em] balance">
+              <h3 className="mt-6 font-display text-[clamp(36px,5vw,72px)] leading-[0.98] tracking-[-0.018em] balance">
                 Wir kommen zu Ihnen.
                 <br />
                 <span className="italic text-[var(--color-blush)]">Gern auch regelmäßig.</span>

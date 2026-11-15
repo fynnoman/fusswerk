@@ -2,7 +2,7 @@
 
 @theme {
   /* Typography */
-  --font-display: var(--font-fraunces), "Fraunces", Georgia, serif;
+  --font-display: var(--font-serif), "Instrument Serif", Georgia, serif;
   --font-sans: var(--font-geist), ui-sans-serif, system-ui, -apple-system, "Helvetica Neue", sans-serif;
 
   /* Palette: warm ivory, deep ink, healing jade, sand, blush */
@@ -51,15 +51,15 @@ html { scroll-behavior: smooth; }
 /* Base link */
 a { color: inherit; }
 
-/* Fraunces fine-tuning */
+/* Instrument Serif display tuning */
 .font-display {
   font-family: var(--font-display);
-  font-optical-sizing: auto;
-  font-variation-settings: "opsz" 144, "SOFT" 50, "WONK" 0;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.015em;
+  word-spacing: 0.02em;
+  font-weight: 400;
 }
 
-.font-display-italic { font-style: italic; font-variation-settings: "opsz" 144, "SOFT" 80; }
+.font-display-italic { font-style: italic; }
 
 /* Eyebrow label */
 .eyebrow {

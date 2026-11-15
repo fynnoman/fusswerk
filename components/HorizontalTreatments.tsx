@@ -27,7 +27,7 @@ export default function HorizontalTreatments() {
           transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
         >
           <p className="eyebrow">Behandlungen</p>
-          <h2 className="mt-6 font-display text-[clamp(36px,7vw,112px)] leading-[0.98] tracking-[-0.035em] balance max-w-[16ch]">
+          <h2 className="mt-6 font-display text-[clamp(36px,7vw,112px)] leading-[0.98] tracking-[-0.02em] balance max-w-[16ch]">
             Jede Pflege ist ein{' '}
             <span className="italic text-[var(--color-jade)]">eigenes Kapitel.</span>
           </h2>

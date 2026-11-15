@@ -30,7 +30,7 @@ export default function Footer() {
             <p className="eyebrow !text-[var(--color-paper)]/60 before:bg-[var(--color-paper)]/30">
               Sprechen wir
             </p>
-            <h3 className="mt-6 font-display text-[clamp(36px,5vw,64px)] leading-[0.98] tracking-[-0.03em] balance">
+            <h3 className="mt-6 font-display text-[clamp(36px,5vw,64px)] leading-[0.98] tracking-[-0.018em] balance">
               Ihre Füße verdienen <br />
               <span className="italic text-[var(--color-blush)]">eine Verabredung.</span>
             </h3>

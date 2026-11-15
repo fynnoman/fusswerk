@@ -38,7 +38,7 @@ export const TREATMENTS = [
   {
     key: 'kaltplasma',
     tag: 'Neu · 09/2026',
-    title: 'Kaltplasma­therapie',
+    title: 'Kaltplasma Therapie',
     body: 'Ionisiertes Gas. Antimikrobiell, zellaktivierend, schmerzfrei. Ab der ersten Sitzung spürbar.',
     img: IMG.kaltAbstract,
     href: '/kaltplasmatherapie',

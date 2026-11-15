@@ -21,7 +21,7 @@ export default function KontaktPage() {
             <Eyebrow>Kontakt</Eyebrow>
           </Reveal>
           <Reveal delay={0.1}>
-            <h1 className="mt-8 font-display text-[clamp(42px,10vw,160px)] leading-[0.95] tracking-[-0.035em] balance">
+            <h1 className="mt-8 font-display text-[clamp(42px,10vw,160px)] leading-[0.95] tracking-[-0.02em] balance">
               Lassen Sie uns
               <br />
               <span className="italic text-[var(--color-jade)]">sprechen.</span>
@@ -50,7 +50,7 @@ export default function KontaktPage() {
               </p>
               <a
                 href={SITE.phoneHref}
-                className="mt-4 block font-display text-[clamp(48px,7vw,104px)] leading-none tracking-[-0.03em] hover:text-[var(--color-blush)] transition-colors"
+                className="mt-4 block font-display text-[clamp(48px,7vw,104px)] leading-none tracking-[-0.018em] hover:text-[var(--color-blush)] transition-colors"
               >
                 {SITE.phoneDisplay}
               </a>

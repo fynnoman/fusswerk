@@ -39,7 +39,7 @@ export default function KaltplasmaPage() {
             <p className="eyebrow">Neu ab {SITE.startKaltplasma}</p>
           </Reveal>
           <Reveal delay={0.1}>
-            <h1 className="mt-8 font-display text-[clamp(42px,10vw,160px)] leading-[0.95] tracking-[-0.035em] balance">
+            <h1 className="mt-8 font-display text-[clamp(42px,10vw,160px)] leading-[0.95] tracking-[-0.02em] balance">
               Kalt<span className="italic text-[var(--color-jade)]">plasma.</span>
               <br />
               Die neue Innovation.
@@ -92,7 +92,7 @@ export default function KaltplasmaPage() {
           <Reveal className="lg:col-span-5">
             <Eyebrow>Was ist Kaltplasma</Eyebrow>
             <SectionTitle className="mt-6">
-              Vierter <span className="italic text-[var(--color-jade)]">Aggregat</span>­zustand.
+              Vierter <span className="italic text-[var(--color-jade)]">Aggregatzustand.</span>
             </SectionTitle>
           </Reveal>
           <Reveal delay={0.1} className="lg:col-span-7">
@@ -221,7 +221,7 @@ export default function KaltplasmaPage() {
           <SoftBlob className="w-[60%] h-[60%] -bottom-[20%] -right-[10%]" color="rgba(215,229,219,0.9)" />
           <Reveal>
             <p className="eyebrow">Jetzt Termin sichern</p>
-            <h2 className="mt-6 font-display text-[clamp(42px,6vw,96px)] leading-[0.95] tracking-[-0.035em] balance">
+            <h2 className="mt-6 font-display text-[clamp(42px,6vw,96px)] leading-[0.95] tracking-[-0.02em] balance">
               Die Plätze sind
               <br />
               <span className="italic text-[var(--color-jade)]">begrenzt.</span>

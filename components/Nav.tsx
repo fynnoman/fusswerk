@@ -127,7 +127,7 @@ export default function Nav() {
                   >
                     <Link
                       href={n.href}
-                      className="font-display italic text-[clamp(42px,9vw,78px)] leading-[1.02] tracking-[-0.03em] block py-1.5"
+                      className="font-display italic text-[clamp(42px,9vw,78px)] leading-[1.02] tracking-[-0.018em] block py-1.5"
                     >
                       {n.label}
                       <span className="text-[var(--color-ink-20)] ml-3 not-italic font-sans text-sm align-middle">

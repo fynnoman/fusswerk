@@ -14,7 +14,7 @@ export default function AGBPage() {
             <Eyebrow>Rechtliches</Eyebrow>
           </Reveal>
           <Reveal delay={0.1}>
-            <h1 className="mt-8 font-display text-[clamp(56px,10vw,140px)] leading-[0.95] tracking-[-0.035em]">
+            <h1 className="mt-8 font-display text-[clamp(56px,10vw,140px)] leading-[0.95] tracking-[-0.02em]">
               AGB
             </h1>
           </Reveal>
